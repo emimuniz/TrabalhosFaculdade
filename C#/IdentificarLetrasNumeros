@@ -1,0 +1,96 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+
+namespace Ex01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            FileStream infile;
+            int tam;
+            int kl = 1;
+            char x;
+            String aux="";
+
+            infile = new System.IO.FileStream("TesteTP.txt",
+                                               System.IO.FileMode.Open,
+                                               System.IO.FileAccess.Read);
+
+            tam = (int)infile.Length;
+            for (int i = 0; i < tam; ++i)
+            {
+                x = (char)infile.ReadByte();
+
+
+                if (x == '&')
+                {
+                    aux = aux + x;
+                    x = (char)infile.ReadByte();
+
+
+                    if (char.IsDigit(x))
+                    {
+
+                        aux = aux + x;
+                        x = (char)infile.ReadByte();
+                        while (x == '1' ||x =='0')
+                        {
+                            aux = aux + x;
+                            x = (char)infile.ReadByte();
+                            ++i;
+                        }
+                        Console.WriteLine("Linha " + kl + " (Binario)..: " + aux);
+                        aux = "";
+                    }
+                }
+                else {
+                    if (char.IsDigit(x))
+                    {
+
+                        aux = aux + x;
+                        x = (char)infile.ReadByte();
+                        while (char.IsDigit(x))
+                        {
+                            aux = aux + x;
+                            x = (char)infile.ReadByte();
+                            ++i;
+                        }
+                        Console.WriteLine("Linha " + kl + " (Decimal)..: " + aux);
+                        aux = "";
+                    }
+                }
+                //if (char.IsPunctuation(x) || char.IsSymbol(x))
+                //{
+                    
+                //        aux = aux + x;
+                //        x = (char)infile.ReadByte();
+                    
+                    
+                //    Console.WriteLine("Linha " + kl + " (delimitador)..: " + aux);
+                //    aux = "";
+                //}
+
+                //if (char.IsLetter(x))
+                //{
+                //    aux = "";
+                //    while (char.IsLetter(x))
+                //    {
+                //        aux = aux + x;
+                //        x = (char)infile.ReadByte();
+                //        ++i;
+                //    }
+                //    Console.WriteLine("Linha " + kl + " (String)...: " + aux);
+                //    aux = "";
+                //}
+
+                if (x == 13) ++kl;
+                
+            }
+            infile.Close();
+            Console.ReadKey();
+        }
+    }
+}
