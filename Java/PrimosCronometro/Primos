@@ -1,0 +1,23 @@
+package primos;
+public class Primos {
+
+    
+    public static boolean isPrimo(int n)
+    {
+        for (int i = 2; i<n/2+1; ++i)
+            if (n%i==0) return false;
+        return true;
+    }
+    public static void main(String[] args) {
+        int k=0;
+        Cronometro.start();
+        for (int i = 1; i<1000000; ++i)
+            if (isPrimo(i)) System.out.println(i);
+        Cronometro.stop();
+
+        System.out.println("Inicio em....: "+Cronometro.getInic());
+        System.out.println("Fim em.......: "+Cronometro.getFim());
+        System.out.println("Tempo Total..: "+Cronometro.getTotal()+"ms.");
+    }
+    
+}
