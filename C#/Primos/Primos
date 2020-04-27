@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Primos2CS
+{
+    class Program
+    {
+        public static bool isPrimo(int n)
+        {
+            for (int i = 2; i < n / 2 + 1; ++i)
+                if (n % i == 0) return false;
+            return true;
+        }
+        static void Main(string[] args)
+        {
+            DateTime inicio, fim;
+            inicio = DateTime.Now;
+            for (int i = 1; i < 1000000; ++i)
+                if (isPrimo(i)) Console.WriteLine(i);
+            fim = DateTime.Now;
+
+            Console.WriteLine("Inicio em....: " + inicio);
+            Console.WriteLine("Fim em.......: " + fim);
+            Console.WriteLine("Tempo Total..: " + (fim-inicio) + "ms.");
+            Console.ReadKey();
+        }
+    }
+}
