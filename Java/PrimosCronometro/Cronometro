@@ -1,0 +1,26 @@
+package primos;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+public class Cronometro {
+    private static Date inic, fim;
+    private static long total;
+
+    public static void start() {inic = new Date();}
+    public static void stop()  {fim = new Date();}
+    
+    public static String getInic()
+    {
+        SimpleDateFormat formatohora = new SimpleDateFormat("HH:mm:ss:SS");
+        return formatohora.format(inic);
+    }
+
+    public static String getFim()
+    {
+        SimpleDateFormat formatohora = new SimpleDateFormat("HH:mm:ss:SS");
+        return formatohora.format(fim);
+    }
+    
+    public static long getTotal() {return fim.getTime() - inic.getTime();}
+    
+}
