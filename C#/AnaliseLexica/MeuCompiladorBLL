@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Windows.Forms;
+
+
+namespace WindowsFormsApp1
+{
+    class MeuCompiladorBLL
+    {
+        public static void compilarPrograma()
+        {
+            filtro();
+        }
+
+        public static void filtro()
+        {
+            FileStream infile, outfile;
+            int tam;
+            char x;
+
+
+            infile = new System.IO.FileStream(ProgramaFonte._pathname,
+                                               System.IO.FileMode.Open,
+                                               System.IO.FileAccess.Read);
+            outfile = new System.IO.FileStream("PFTMP.txt",
+                                               System.IO.FileMode.Create,
+                                               System.IO.FileAccess.Write);
+
+            tam = (int)infile.Length;
+            for (int i = 0; i < tam; ++i)
+            {
+                x = (char)infile.ReadByte();
+                if (x == '#')
+                {
+                    ++i;
+                    do
+                    {
+                        x = (char)infile.ReadByte();
+                        ++i;
+                    }
+                    while (x != '#');
+                }
+                else
+                    if (x != ' ')
+                    outfile.WriteByte((byte)char.ToUpper(x));
+            }
+            infile.Close();
+            outfile.Close();
+
+            MessageBox.Show("Programa compilado com sucesso!");
+        }
+    }
+}

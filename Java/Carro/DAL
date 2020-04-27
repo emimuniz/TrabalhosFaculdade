@@ -1,0 +1,104 @@
+package progcorona6;
+import java.sql.*;
+
+public class DAL {
+    
+    private static Connection con;
+
+    public static void conecta(String _bd){
+        Erro.setErro(false);
+        try
+        {
+            Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+            con = DriverManager.getConnection("jdbc:ucanaccess://" + _bd);
+        }
+        catch (Exception e)
+        {
+            Erro.setErro(e.getMessage());
+        }
+    }
+
+    public static void desconecta(){
+        Erro.setErro(false);
+        try 
+        {
+            con.close();
+        }
+        catch (Exception e)
+        {
+            Erro.setErro(e.getMessage());
+        }
+    }
+    
+    public static void consultaCarro(Carro umcarro){
+        ResultSet rs;
+        try{
+            PreparedStatement st = con.prepareStatement("SELECT * FROM tabcarros WHERE nm_modelo=?");
+            st.setString(1,umcarro.getModelo());
+            rs = st.executeQuery();
+            if (rs.next()){
+                umcarro.setFabricante(rs.getString("nm_fabricante"));
+                umcarro.setCombustivel(rs.getString("ds_combustivel"));
+                umcarro.setAnoFabr(rs.getString("dt_anoFabr"));
+                umcarro.setAnoModelo(rs.getString("dt_anoModelo"));
+            }
+            else{
+                Erro.setErro("Carro nao localizado.");
+                return;
+            }
+            st.close();
+        }
+        catch(Exception e){
+            Erro.setErro(e.getMessage());
+        }
+    }
+    
+    public static void insereCarro(Carro umcarro){
+        try{
+            PreparedStatement st = con.prepareStatement("INSERT INTO tabcarros"
+                + "(nm_modelo,nm_fabricante,ds_combustivel,dt_anoFabr,dt_anoModelo) "
+                + "VALUES (?,?,?,?,?)");
+            st.setString(1,umcarro.getModelo());
+            st.setString(2,umcarro.getFabricante());
+            st.setString(3,umcarro.getCombustivel());
+            st.setString(4,umcarro.getAnoFabr());
+            st.setString(5,umcarro.getAnoModelo());
+            st.executeUpdate();
+            st.close();
+        }
+        catch(Exception e){
+            Erro.setErro(e.getMessage());
+        }
+    }
+    
+    public static void atualizaCarro(Carro umcarro){
+        try{
+            PreparedStatement st = con.prepareStatement("UPDATE tabcarros "
+                + "SET nm_fabricante=?,ds_combustivel=?,dt_anoFabr=?,dt_anoModelo=? "
+                + "WHERE nm_modelo=?");
+            st.setString(1,umcarro.getFabricante());
+            st.setString(2,umcarro.getCombustivel());
+            st.setString(3,umcarro.getAnoFabr());
+            st.setString(4,umcarro.getAnoModelo());
+            st.setString(5,umcarro.getModelo());
+
+            st.executeUpdate();
+            st.close();
+        }
+        catch(Exception e){
+            Erro.setErro(e.getMessage());
+        }
+    }
+    
+    public static void deletaCarro(Carro umcarro){
+        try{
+            PreparedStatement st = con.prepareStatement("DELETE FROM tabcarros WHERE nm_modelo=?");
+            st.setString(1,umcarro.getModelo());
+            st.executeUpdate();
+            st.close();
+        }
+        catch(Exception e){
+            Erro.setErro(e.getMessage());
+        }
+    }
+}

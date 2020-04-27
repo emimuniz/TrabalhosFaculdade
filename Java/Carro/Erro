@@ -1,0 +1,11 @@
+package progcorona6;
+
+public class Erro {
+    static private boolean erro;
+    static private String mens;
+    
+    static public void setErro(boolean _erro) {erro = _erro;}
+    static public void setErro(String _mens) {erro = true;mens = _mens;}
+    static public boolean getErro() {return erro;}
+    static public String getMens() {return mens;}
+}

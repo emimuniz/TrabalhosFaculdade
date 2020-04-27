@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
+namespace WindowsFormsApplication1
+{
+public partial class Form1 : Form
+{
+  private Socket socketenviar = new
+  Socket(AddressFamily.InterNetwork, SocketType.Dgram,
+  ProtocolType.Udp);
+  private IPEndPoint endereco = new
+  IPEndPoint(IPAddress.Parse("127.0.0.1"), 9060);]
+  
+public Form1()
+{
+  InitializeComponent();
+}
+private void button1_Click(object sender, EventArgs e)
+{
+  Arquivo.setPathNome(textBox1.Text);
+  ArquivoBLL.validaDados();
+  if (Erro.getErro())
+  MessageBox.Show(Erro.getMsg());
+  else
+{
+  FileStream infile;
+  String buffer="";
+  int tam;
+  char x;
+  infile = new
+  System.IO.FileStream(Arquivo.getPathNome(),
+  System.IO.FileMode.Open,
+  System.IO.FileAccess.Read);
+  
+  socketenviar.SendTo(Encoding.ASCII.GetBytes(Arquivo.getPathNome()), endereco);
+  tam = (int)infile.Length;
+  
+  for (int i = 0; i < tam; ++i)
+  {
+    x = (char)infile.ReadByte();
+    buffer += x;
+  }
+    socketenviar.SendTo(Encoding.ASCII.GetBytes(buffer), endereco);
+    MessageBox.Show("Arquivo transmitido com sucesso");
+    infile.Close();
+    socketenviar.Close();
+    }
+  }
+ }
+}

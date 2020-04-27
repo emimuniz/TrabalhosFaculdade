@@ -1,0 +1,20 @@
+package progcorona6;
+
+public class Carro {
+    private String modelo;
+    private String fabricante;
+    private String combustivel;
+    private String anoFabr;
+    private String anoModelo;
+    
+    public void setModelo(String _modelo) {modelo = _modelo;}
+    public void setFabricante(String _fabricante) {fabricante = _fabricante;}
+    public void setCombustivel(String _combustivel) {combustivel = _combustivel;}
+    public void setAnoFabr(String _anoFabr) {anoFabr = _anoFabr;}
+    public void setAnoModelo(String _anoModelo) {anoModelo = _anoModelo;}
+    public String getModelo() {return modelo;}
+    public String getFabricante() {return fabricante;}
+    public String getCombustivel() {return combustivel;}
+    public String getAnoFabr() {return anoFabr;}
+    public String getAnoModelo() {return anoModelo;}
+}

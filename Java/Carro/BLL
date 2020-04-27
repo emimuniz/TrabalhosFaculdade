@@ -1,0 +1,57 @@
+package progcorona6;
+
+public class BLL {
+    public static void verificaCarro(Carro umcarro){
+        Erro.setErro(false);
+        
+        if ("".equals(umcarro.getModelo())){
+            Erro.setErro("Modelo deve ser preenchido");
+            return;
+        }
+        if ("".equals(umcarro.getFabricante())){
+            Erro.setErro("Fabricante deve ser preenchido");
+            return;
+        }
+        if ("".equals(umcarro.getAnoFabr())){
+            Erro.setErro("Ano de fabricação deve ser preenchido");
+            return;
+        }
+        if ("".equals(umcarro.getAnoModelo())){
+            Erro.setErro("Ano do modelo deve ser preenchido");
+            return;
+        }
+    }
+    
+    public static void verificaModelo(Carro umcarro){
+        Erro.setErro(false);
+        
+        if ("".equals(umcarro.getModelo())){
+            Erro.setErro("Modelo deve ser preenchido");
+            return;
+        }
+    }
+    
+    public static void conectaBD(){
+        DAL.conecta("Carros.mdb");
+    }
+    
+    public static void desconectaBD(){
+        DAL.desconecta();
+    }
+    
+    public static void consultaBanco(Carro umcarro){
+        DAL.consultaCarro(umcarro);
+    }
+    
+    public static void insereBanco(Carro umcarro){
+        DAL.insereCarro(umcarro);
+    }
+    
+    public static void atualizaBanco(Carro umcarro){
+        DAL.atualizaCarro(umcarro);
+    }
+    
+    public static void deletaBanco(Carro umcarro){
+        DAL.deletaCarro(umcarro);
+    }
+}

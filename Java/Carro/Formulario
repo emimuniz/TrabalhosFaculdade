@@ -1,0 +1,152 @@
+package progcorona6;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import javax.swing.JOptionPane;
+
+public class Formulario extends JFrame implements ActionListener {
+	
+    private JLabel l0 = new JLabel("");
+    private JLabel l1 = new JLabel("Modelo:");
+    private JLabel l2 = new JLabel("Fabricante:");
+    private JLabel l3 = new JLabel("Combustivel:");
+    private JLabel l4 = new JLabel("Ano de fabricação:");
+    private JLabel l5 = new JLabel("Ano do modelo:");
+    private JTextField tf1 = new JTextField();
+    private JTextField tf2 = new JTextField();
+    private JTextField tf3 = new JTextField();
+    private JTextField tf4 = new JTextField();
+    private JComboBox cb1 = new JComboBox();
+    private JButton bt1 = new JButton("Limpar");
+    private JButton bt2 = new JButton("Consultar");
+    private JButton bt3 = new JButton("Inserir");
+    private JButton bt4 = new JButton("Atualizar");
+    private JButton bt5 = new JButton("Deletar");
+    private JPanel p1 = new JPanel(new GridLayout(6,2));
+    private JPanel p2 = new JPanel(new GridLayout(2,2));
+
+    public Formulario(String titulo, int largura, int altura) {
+        setTitle(titulo);
+        setSize(largura,altura);
+        setLayout(new BorderLayout());
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        BLL.conectaBD();
+        if (Erro.getErro()){
+            JOptionPane.showMessageDialog(null, Erro.getMens(), "Erro", JOptionPane.INFORMATION_MESSAGE);
+        }
+        this.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                BLL.desconectaBD();
+            }
+        });
+
+        bt1.addActionListener(this);
+        bt2.addActionListener(this);
+        bt3.addActionListener(this);
+        bt4.addActionListener(this);
+        bt5.addActionListener(this);
+
+        cb1.addItem("Gasolina");
+        cb1.addItem("Álcool");
+        cb1.addItem("Flex");
+        cb1.addItem("Diesel");
+
+        p1.add(l1);
+        p1.add(tf1);
+        p1.add(l2);
+        p1.add(tf2);
+        p1.add(l3);
+        p1.add(cb1);
+        p1.add(l4);
+        p1.add(tf3);
+        p1.add(l5);
+        p1.add(tf4);
+        p1.add(l0);
+        p1.add(bt1);
+        
+        p2.add(bt2);
+        p2.add(bt3);
+        p2.add(bt4);
+        p2.add(bt5);
+
+        add(BorderLayout.CENTER, p1);
+        add(BorderLayout.SOUTH, p2);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        // Limpa campos
+        if (e.getSource() == bt1){
+            tf1.setText("");
+            tf2.setText("");
+            tf3.setText("");
+            tf4.setText("");
+            return;
+        }
+        
+        Carro novocarro = new Carro();
+        novocarro = populaCarro(novocarro);
+        
+        // Consulta dados
+        if (e.getSource() == bt2){
+            BLL.verificaModelo(novocarro);
+            if (verificaErro()) return;
+            
+            BLL.consultaBanco(novocarro);          
+            if (verificaErro())return;
+                
+            tf2.setText(novocarro.getFabricante());
+            int count = cb1.getItemCount();
+            for (int i = 0; i < count; i++) {
+                if (novocarro.getCombustivel().equals(cb1.getItemAt(i))){
+                    cb1.setSelectedIndex(i);
+                }
+            }
+            cb1.setName(novocarro.getCombustivel());
+            tf3.setText(novocarro.getAnoFabr());
+            tf4.setText(novocarro.getAnoModelo());
+
+            return; 
+        }
+        
+        BLL.verificaCarro(novocarro);
+        if (verificaErro()) return;
+        
+        String mensagem;
+        if (e.getSource() == bt3){
+            BLL.insereBanco(novocarro);
+            mensagem = "Carro inserido com sucesso";
+        } 
+        else if (e.getSource() == bt4){
+            BLL.atualizaBanco(novocarro);
+            mensagem = "Dados do carro atualizados com sucesso";        
+        }
+        else{
+            BLL.deletaBanco(novocarro); 
+            mensagem = "Carro deletado com sucesso";
+        }
+             
+        if(!verificaErro())
+            JOptionPane.showMessageDialog(null, mensagem, "Sucesso", JOptionPane.INFORMATION_MESSAGE);
+    }
+    
+    private Carro populaCarro(Carro umcarro){
+        umcarro.setModelo(tf1.getText()); 
+        umcarro.setFabricante(tf2.getText());
+        umcarro.setCombustivel(cb1.getSelectedItem().toString());
+        umcarro.setAnoFabr(tf3.getText());
+        umcarro.setAnoModelo(tf4.getText());
+        return umcarro;
+    }
+    
+    private boolean verificaErro(){
+        boolean erro = Erro.getErro();
+        if (erro)
+            JOptionPane.showMessageDialog(null, Erro.getMens(), "Erro", JOptionPane.INFORMATION_MESSAGE);
+        return erro;
+    }
+}

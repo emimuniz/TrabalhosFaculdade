@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WindowsFormsApp1
+{
+    class ProgramaFonte
+    {
+        public static string _pathname; 
+        public string PathName  
+        {
+            get { return _pathname; }   
+            set { _pathname = value; }  
+        }
+    }
+}

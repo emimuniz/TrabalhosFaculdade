@@ -1,0 +1,8 @@
+package progcorona6;
+
+public class Frame01 {
+	public static void main(String[] args) {
+        Formulario f = new Formulario("Form",400,250);
+        f.setVisible(true);
+    }
+}
