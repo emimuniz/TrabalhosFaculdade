@@ -1,0 +1,86 @@
+package ex01;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Ex01 {
+
+    public static void main(String[] args) {
+        ArrayList <String> lista = new ArrayList();
+        lista.add("Mauricio");
+        lista.add("Gilberto");
+        lista.add("Cesar");
+        lista.add("Ana");
+        lista.add("Maria");
+        lista.add("Mauricio");
+        
+        System.out.println(lista);
+        Collections.sort(lista);
+        System.out.println(lista);
+    }
+    
+}
+
+-----------------------------------------------------------------------------------------------------------------
+package ex01;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+public class Ex01 {
+
+    public static void main(String[] args) {
+        Set <String> lista1 = new HashSet<String>();
+        lista1.add("Mauricio");
+        lista1.add("Gilberto");
+        lista1.add("Cesar");
+        lista1.add("Ana");
+        lista1.add("Mauricio");
+        
+        System.out.println("HashSet       = " + lista1);
+
+        Set <String> lista2 = new LinkedHashSet<String>();
+        lista2.add("Mauricio");
+        lista2.add("Gilberto");
+        lista2.add("Cesar");
+        lista2.add("Ana");
+        lista2.add("Mauricio");
+        
+        System.out.println("LinkedHashSet = " + lista2);
+
+        Set <String> lista3 = new TreeSet<String>();
+        lista3.add("Mauricio");
+        lista3.add("Gilberto");
+        lista3.add("Cesar");
+        lista3.add("Ana");
+        lista3.add("Mauricio");
+        
+        System.out.println("TreeSet       = " + lista3);
+
+    }
+    
+}
+-------------------------------------------------------------------------------------------------------------------------
+package ex01;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+public class Ex01 {
+
+    public static void main(String[] args) {
+        Set <String> lista1 = new HashSet<String>();
+        lista1.add("Mauricio");
+        lista1.add("Gilberto");
+        lista1.add("Cesar");
+        lista1.add("Ana");
+        lista1.add("Mauricio");
+        
+        for (String nome : lista1)
+            System.out.println("HashSet       = " + nome);
+
+
+    }
+    
+}
