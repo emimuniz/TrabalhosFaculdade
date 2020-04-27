@@ -1,0 +1,23 @@
+package fibonacci;
+import java.util.Scanner;
+
+public class Fibonacci {
+   
+    public static int Fibo(int termo)
+    {
+        return (termo==1 || termo==2)?1:(Fibo(termo-1)+Fibo(termo-2));
+    }
+    
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int qtd;
+        
+        System.out.print("Quantos termos da serie de Fibonacci voce deseja? ");
+        qtd = teclado.nextInt();
+        
+        for (int i=1; i<=qtd; ++i)
+            System.out.println("Termo " + i + " = " + Fibo(i));
+
+    }
+    
+}
