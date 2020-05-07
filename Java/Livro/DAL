@@ -1,0 +1,84 @@
+import java.sql.*;
+
+public class LivroDAL {
+
+private static Connection con;
+private static ResultSet rsnav;
+
+public static void conecta(String _bd)
+{
+Erro.setErro(false);
+    try
+    {
+        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+        con = DriverManager.getConnection("jdbc:ucanaccess://" + _bd);
+    }
+    catch (Exception e)
+    {
+        Erro.setErro(e.getMessage());
+    }
+}
+
+public static void desconecta()
+{
+try {
+  con.close();
+  }
+catch (Exception e) {
+  Erro.setErro(e.getMessage());
+  }
+}
+public static void geraRS()
+{
+    Erro.setErro(false);
+    try
+    {
+        Statement st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+        rsnav = st.executeQuery("SELECT * FROM TabLivros");
+    }
+    catch(Exception e){Erro.setErro(e.getMessage()); return;}
+}
+
+public static Livro getLivro(char opc)
+{
+    Livro umlivro = new Livro();
+    boolean flag = false;
+
+    Erro.setErro(false);
+    try {
+
+        switch (opc) {
+            case 'p': // Primeiro
+                flag = rsnav.first();
+                break;
+            case 'v': // Volta
+                flag = rsnav.previous();
+                break;
+            case 'a': //Avança
+                flag = rsnav.next();
+                break;
+            case 'u': // Último
+                flag = rsnav.last();
+                break;
+            default:
+                Erro.setErro("Valor errado");
+                break;
+        }
+
+        if (Erro.getErro()) return null;
+
+        if (flag)
+          {
+          umlivro.setTitulo(rsnav.getString("titulo"));
+          umlivro.setAutor(rsnav.getString("autor"));
+          umlivro.setEditora(rsnav.getString("editora"));
+          umlivro.setAnoEdicao(rsnav.getString("ano"));
+          umlivro.setLocalizacao(rsnav.getString("localizacao"));
+          }
+        else
+          {Erro.setErro("Impossivel");}
+        }
+        catch(Exception e){Erro.setErro(e.getMessage());}
+        return umlivro;
+    }
+}
