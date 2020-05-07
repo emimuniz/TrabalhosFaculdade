@@ -1,0 +1,20 @@
+
+public class Dados {
+    private String dado1;  
+    private String dado2;
+    private String dado3;
+    private String dado4;
+    private boolean esperado;
+    
+    public void setDado1(String dado) { dado1 = dado; }
+    public void setDado2(String dado) { dado2 = dado; }
+    public void setDado3(String dado) { dado3 = dado; }
+    public void setDado4(String dado) { dado4 = dado; }
+    public void setEsperado(boolean dado) { esperado = dado; }
+    
+    public String getDado1() { return dado1; }
+    public String getDado2() { return dado2; }
+    public String getDado3() { return dado3; }
+    public String getDado4() { return dado4; }
+    public boolean getEsperado() { return esperado; }
+}
