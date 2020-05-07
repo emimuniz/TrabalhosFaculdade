@@ -1,0 +1,47 @@
+import org.apache.commons.lang.StringUtils;
+
+public class TesteBLL {
+	
+    public static void ValidaDados(Dados dado) {
+        Erro.setErro(false);
+        if(dado != null) {
+	        if (StringUtils.isBlank(dado.getDado1())) {
+	            Erro.setErro("Dado1 deve ser preenchido");
+	            return;
+	        }
+	        if (StringUtils.isBlank(dado.getDado2())) {
+	            Erro.setErro("Dado2 deve ser preenchido");
+	            return;
+	        }
+	        if (StringUtils.isBlank(dado.getDado3())) {
+	            Erro.setErro("Dado3 deve ser preenchido");
+	            return;
+	        }
+	        if (StringUtils.isBlank(dado.getDado4())) {
+	            Erro.setErro("Dado4 deve ser preenchido");
+	            return;
+	        }
+        }
+//        try {
+//            Integer.parseInt(dado.getDado2());
+//        }
+//        catch (Exception e) {
+//            Erro.setErro("Dado2 deve ser do tipo int");
+//        }
+//        try {
+//            Float.parseFloat(dado.getDado2());
+//        }
+//        catch (Exception e) {
+//            Erro.setErro("Dado3 deve ser do tipo float");
+//        }
+//        try {
+//            if (Integer.parseInt(dado.getDado2()) < 0) {
+//                Erro.setErro("Dado3 deve ser do tipo int");
+//                return;
+//            }
+//        }
+//        catch (Exception e) {
+//            Erro.setErro("Dado3 deve ser do tipo int");
+//        }
+    }
+}
