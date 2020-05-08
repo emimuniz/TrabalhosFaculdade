@@ -8,17 +8,57 @@ namespace MeuCompilador
 {
     class AnalisadorSintaticoBLL
     {
-        public static void testeAnaliseSintatica()
+
+        private static int[] lt = { 0, 100, 101, 103 };
+        private static int[] pc = { 1, 100, 200, 102, 200, 101, 103 };
+        private static int[] ed = { 2, 100, 200, 101, 103 };
+        private static int[] f = { 3, 100, 101, 103 };
+
+        public static void validaSequencia(int[] _seq)
+        {
+            Erro.setErro(false);
+            for (int i = 1; i < _seq.Length; i++)
+            {
+                MeuCompiladorDAL.leUmTokenValido();
+                int codigo = Int32.Parse(Token.getCodigo());
+                if (codigo != _seq[i])
+                {
+                    Erro.setErro("Codigo esperado: " + _seq[i] + "  Código encontrado: " + codigo);
+                    return;
+                }
+            }
+        }
+        //public static void testeAnaliseSintatica()
+        //{
+        //    MeuCompiladorDAL.populaDR();
+
+        //    MeuCompiladorDAL.leUmTokenValido();
+        //    while (Erro.getErro() == false)
+        //    {
+        //        System.Windows.Forms.MessageBox.Show(Token.getToken());
+        //        MeuCompiladorDAL.leUmTokenValido();
+        //    }
+        //    Erro.setErro(false);
+        //}
+
+        public static void analiseSintatica()
         {
             MeuCompiladorDAL.populaDR();
-
             MeuCompiladorDAL.leUmTokenValido();
             while (Erro.getErro() == false)
             {
-                System.Windows.Forms.MessageBox.Show(Token.getToken());
+                switch (Int32.Parse(Token.getCodigo()))
+                {
+                    case 0: validaSequencia(lt); if (Erro.getErro()) return; break;
+                    case 1: validaSequencia(pc); if (Erro.getErro()) return; break;
+                    case 2: validaSequencia(ed); if (Erro.getErro()) return; break;
+                    case 3: validaSequencia(f); if (Erro.getErro()) return; break;
+                    default: Erro.setErro("Linha " + Token.getLinha() + "- Comando esperado: " + Token.getToken()); return;
+                }
                 MeuCompiladorDAL.leUmTokenValido();
             }
             Erro.setErro(false);
         }
+
     }
 }
