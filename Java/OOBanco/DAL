@@ -1,0 +1,116 @@
+
+import com.db4o.Db4o;
+import com.db4o.ObjectContainer;
+import com.db4o.ObjectSet;
+
+
+public class LivroDAL {
+private static ObjectContainer db;
+    
+public static void conecta()
+{
+try {
+    db = Db4o.openFile("meubanco.dbo");
+  }
+catch (Exception e) {
+  Erro.setErro(e.getMessage());
+  }
+}
+
+public static void desconecta()
+{
+try {
+  db.close();
+  }
+catch (Exception e) {
+  Erro.setErro(e.getMessage());
+  }
+}
+
+public static void inseriLivro(Livro _umlivro)
+{
+  Erro.setErro(false);
+  try {
+      db.set(_umlivro);
+  }
+  catch(Exception e){
+    Erro.setErro(e.getMessage());
+  } 
+}
+
+public static void consultaLivro(Livro _umlivro)
+{
+  ObjectSet<Livro> lista;
+    
+  Erro.setErro(false);
+  try {
+    lista = db.get(_umlivro);
+    if (lista.hasNext())
+    {
+        Livro aux = lista.next();
+        _umlivro.setAutor(aux.getAutor());
+        _umlivro.setEditora(aux.getEditora());
+        _umlivro.setAnoEdicao(aux.getAnoEdicao());
+        _umlivro.setLocalizacao(aux.getLocalizacao());
+    }
+    else
+    {
+        Erro.setErro("Livro nao localizado."); return;
+    }
+  }
+  catch(Exception e){
+    Erro.setErro(e.getMessage());
+  } 
+}
+
+public static void deletaLivro(Livro _umlivro)
+{
+  ObjectSet<Livro> lista;
+    
+  Erro.setErro(false);
+  try {
+    lista = db.get(_umlivro);
+    if (lista.hasNext())
+    {
+        _umlivro = lista.next();
+        db.delete(_umlivro);
+    }
+    else
+    {
+        Erro.setErro("Livro nao localizado."); return;
+    }
+  }
+  catch(Exception e){
+    Erro.setErro(e.getMessage());
+  } 
+}
+
+public static void alteraLivro(Livro _umlivro)
+{
+  ObjectSet<Livro> lista;
+  Livro consulta = new Livro();
+  consulta.setTitulo(_umlivro.getTitulo());
+    
+  Erro.setErro(false);
+  try {
+    lista = db.get(consulta);
+    if (lista.hasNext())
+    {
+        consulta = lista.next();
+        consulta.setAutor(_umlivro.getAutor());
+        consulta.setEditora(_umlivro.getEditora());
+        consulta.setAnoEdicao(_umlivro.getAnoEdicao());
+        consulta.setLocalizacao(_umlivro.getLocalizacao());
+        db.set(consulta);
+    }
+    else
+    {
+        Erro.setErro("Livro nao localizado."); return;
+    }
+  }
+  catch(Exception e){
+    Erro.setErro(e.getMessage());
+  } 
+} 
+
+}
