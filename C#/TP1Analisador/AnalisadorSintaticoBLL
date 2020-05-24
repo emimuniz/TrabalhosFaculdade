@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MeuCompilador
+{
+    class AnalisadorSintaticoBLL
+    {
+        //private static int[][] gabarito = new int[][] {new int[] { 0, 100, 101, 103 },
+        //                                               new int[] { 1, 100, 200, 102, 200, 101, 103 },
+        //                                               new int[] { 2, 100, 200, 101, 103 },
+        //                                               new int[] { 3, 100, 101, 103 }}; 
+
+        public static void validaSequencia()
+        {
+            Erro.setErro(false);
+            MeuCompiladorDAL.leGabarito();
+            while (Erro.getErro() == false)
+            {
+                if (Token.getCodigo() != Gabarito.getInfo().ToString())
+                {
+                    Erro.setErro("Linha " + Token.getLinha() + "- token inesperado: " + Token.getToken());
+                    return;
+                }
+                MeuCompiladorDAL.leGabarito();
+                if (Erro.getErro()) 
+                { 
+                    Erro.setErro(false); 
+                    return; 
+                }
+                MeuCompiladorDAL.leUmTokenValido();
+            }
+        } 
+
+        public static void analiseSintatica()
+        {
+            
+            MeuCompiladorDAL.populaDR();
+
+            MeuCompiladorDAL.leUmTokenValido();
+            while (Erro.getErro() == false)
+            {
+                MeuCompiladorDAL.populaGabarito(int.Parse(Token.getCodigo()));
+                if (Erro.getErro()) return;
+                validaSequencia();
+                if (Erro.getErro()) return;
+                MeuCompiladorDAL.leUmTokenValido();
+            }
+            Erro.setErro(false);
+        }
+
+    }
+}
