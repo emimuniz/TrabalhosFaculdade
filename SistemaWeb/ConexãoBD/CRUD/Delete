@@ -1,0 +1,32 @@
+
+       private void btnDeletar_Click(object sender, EventArgs e)
+        {
+            if (ID != 0)
+            {
+                if (MessageBox.Show("Deseja Deletar este registro ?", "Agenda", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    try
+                    {
+                        cmd = new SqlCommand("DELETE Contatos WHERE id=@id", con);
+                        con.Open();
+                        cmd.Parameters.AddWithValue("@id", ID);
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("registro deletado com sucesso...!");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Erro : " + ex.Message);
+                    }
+                    finally
+                    {
+                        con.Close();
+                        ExibirDados();
+                        LimparDados();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecione um registro para deletar");
+            }
+        }
