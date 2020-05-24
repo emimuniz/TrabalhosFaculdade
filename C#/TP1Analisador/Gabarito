@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MeuCompilador
+{
+    class Gabarito
+    {
+        private static int code;
+        private static string prior;
+        private static int info;
+        private static string next;
+
+        public static void setCode(int _code) { code = _code; }
+        public static void setPrior(string _prior) { prior = _prior; }
+        public static void setInfo(int _info) { info = _info; }
+        public static void setNext(string _next) { next = _next; }
+        public static int getCode() { return code; }
+        public static string getPrior() { return prior; }
+        public static int getInfo() { return info; }
+        public static string getNext() { return next; }
+    }
+}
