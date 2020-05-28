@@ -1,0 +1,47 @@
+public class OutraForma {
+
+ 
+    
+    public static void mostraTitulo1(Livro _umlivro)
+    {
+        System.out.println("Titulo = " + _umlivro.getTitulo());
+    }
+    
+    public static void mostraTitulo2(Object _obj)
+    {
+        Class generico = _obj.getClass();
+        Method mtd;
+        
+        try
+        {
+            mtd = generico.getMethod("getTitulo");
+            System.out.println("Titulo = " + mtd.invoke(_obj));
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+        
+        
+        
+    }
+    
+    
+    public static void main(String[] args) {
+        Livro umlivro = new Livro();
+        
+        umlivro.setTitulo("Titulo Qualquer");
+        umlivro.setAutor("Um Fulano Qualquer");
+        umlivro.setEditora("UNISANTA");
+        umlivro.setLocalizacao("Santos");
+        umlivro.setAno("2015");
+        
+        //Dados mostrados pelo método mostra1
+        mostraTitulo1(umlivro);
+        
+        //Dados mostrados pelo método mostra2
+        mostraTitulo2(umlivro);
+        
+    }
+    
+}
