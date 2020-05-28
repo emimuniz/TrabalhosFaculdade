@@ -1,0 +1,76 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author MauricioAsenjo
+ */
+import java.sql.*;
+
+public class LivroDAL {
+private static Connection con;
+private static ResultSet rsnav;
+
+public static void conecta(String _bd)
+{
+try {
+    Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+    con = DriverManager.getConnection("jdbc:ucanaccess://" + _bd);
+   }
+catch (Exception e) {
+  Erro.setErro(e.getMessage());
+  }
+}
+
+public static void desconecta()
+{
+try {
+  con.close();
+  }
+catch (Exception e) {
+  Erro.setErro(e.getMessage());
+  }
+}
+
+public static void geraRS()
+{
+    Erro.setErro(false);
+    try
+    {
+        //DICA: seu TP não deverá funcionar e o problema é a linha abaixo!!!
+        Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
+        rsnav = st.executeQuery("SELECT * FROM TabLivros");
+    }
+    catch(Exception e){Erro.setErro(e.getMessage()); return;}
+}
+
+public static void getLivro(int op)
+{
+    boolean flag = false;
+
+    Erro.setErro(false);
+    try {
+        switch (op)
+        {
+            case 2 : flag = rsnav.first(); break;
+            case 3 : flag = rsnav.previous(); break;
+            case 4 : flag = rsnav.next(); break;
+            case 5 : flag = rsnav.last(); break;    
+        }
+        if (flag)
+          {
+          Livro.setTitulo(rsnav.getString("titulo"));
+          Livro.setAutor(rsnav.getString("autor"));
+          Livro.setEditora(rsnav.getString("editora"));
+          Livro.setAnoEdicao(rsnav.getString("ano"));
+          Livro.setLocalizacao(rsnav.getString("localizacao"));
+          }
+        else
+          {Erro.setErro("Impossivel");}
+        }
+        catch(Exception e){Erro.setErro(e.getMessage());}
+}
+
+}
