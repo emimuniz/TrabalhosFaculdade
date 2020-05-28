@@ -1,0 +1,23 @@
+public class LivroBLL {
+
+public static void conecta(String _bd)
+{
+LivroDAL.conecta(_bd);
+}
+
+public static void desconecta()
+{
+LivroDAL.desconecta();
+}
+
+public static void geraRS()
+{
+LivroDAL.geraRS();
+}
+
+public static void getLivro(int op)
+{
+LivroDAL.getLivro(op);
+}
+
+}
