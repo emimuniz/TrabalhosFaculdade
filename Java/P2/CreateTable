@@ -1,0 +1,41 @@
+public static void consultaObjeto(char opc){
+    ObjectSet<Livro> lista;
+
+    Erro.setErro(false);
+    try {
+        if (opc == 'L'){
+            Livro umlivro = new Livro();
+            lista = db.get(umlivro);
+            if (lista.hasNext())
+            {
+                Livro aux = lista.next();
+                umlivro.setAutor(aux.getAutor());
+                umlivro.setEditora(aux.getEditora());
+                umlivro.setAnoEdicao(aux.getAnoEdicao());
+                umlivro.setLocalizacao(aux.getLocalizacao());
+            }
+            else
+            {
+                Erro.setErro("Livro nao localizado."); return;
+            }
+        }
+        else if (opc == 'P'){
+            Pessoa umapessoa = new Pessoa();
+            lista = db.get(umapessoa);
+            if (lista.hasNext())
+            {
+                Livro aux = lista.next();
+                umapessoa.setNome(aux.getNome());
+                umapessoa.setSexo(aux.getSexo());
+                umapessoa.setIdade(aux.getIdade());
+            }
+            else
+            {
+                Erro.setErro("Pessoa nao localizada."); return;
+            }
+        }
+  }
+  catch(Exception e){
+    Erro.setErro(e.getMessage());
+  } 
+}
