@@ -1,0 +1,47 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication13.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            height: 100px;
+            width: 150px;
+        }
+    </style>
+    </head>
+<body>
+<form id="form1" runat="server">
+<table style="font-family: Arial">
+    <tr>
+        <td colspan="2" style="width: 900px; height: 80px; text-align: center; 
+            background-color: #BDBDBD;">
+            <h1 id="divcabecalho">
+                <asp:Literal ID="cabecalho" runat="server" />
+            </h1>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: #D8D8D8; " class="auto-style2">
+            <h3>Informações do voo</h3>
+        </td>
+        <td style="height: 600px; background-color: #E6E6E6; width: 600px">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <h1>Section that changes on a page by page basis</h1>
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color: #BDBDBD; text-align: center">
+            <b>Website Footer</b>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
