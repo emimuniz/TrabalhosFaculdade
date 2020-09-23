@@ -82,61 +82,61 @@ namespace ProjetoFila
    Fila START, END, ff;
    START = END = null;
    int n, escolha, resultado;
- do
- {
-     Console.Clear();
-     Console.WriteLine(" Menu Principal");
-     Console.WriteLine("(1) - Insere um elemento na Fila");
-     Console.WriteLine("(2) - Remove um elemento da Fila");
-     Console.WriteLine("(3) - Consulta um elemento da Fila");
-     Console.WriteLine("(4) - Imprime os elementos da Fila");
-     Console.WriteLine("(5) - Para SAIR");
-     Console.WriteLine("(6) - Soma dos elementos pares da Fila");
-     escolha = int.Parse(Console.ReadLine());
- switch (escolha)
- {
-    case 1: // Insere um elemento na Fila
+    do
+    {
         Console.Clear();
-        ff = new Fila();
-        Console.Write("Entre com um numero : ");
-        n = int.Parse(Console.ReadLine());
-        ff.Insere(n, ref START, ref END);
-        break;
-   case 2: //Remove
-        START.Remove(ref START);
-        
-        break;
-   case 3://CONSULTAR
+        Console.WriteLine(" Menu Principal");
+        Console.WriteLine("(1) - Insere um elemento na Fila");
+        Console.WriteLine("(2) - Remove um elemento da Fila");
+        Console.WriteLine("(3) - Consulta um elemento da Fila");
+        Console.WriteLine("(4) - Imprime os elementos da Fila");
+        Console.WriteLine("(5) - Para SAIR");
+        Console.WriteLine("(6) - Soma dos elementos pares da Fila");
+        escolha = int.Parse(Console.ReadLine());
+    switch (escolha)
+    {
+       case 1: // Insere um elemento na Fila
+           Console.Clear();
+           ff = new Fila();
+           Console.Write("Entre com um numero : ");
+           n = int.Parse(Console.ReadLine());
+           ff.Insere(n, ref START, ref END);
+           break;
+      case 2: //Remove
+           START.Remove(ref START);
+
+           break;
+      case 3://CONSULTAR
+           Console.Clear();
+          if(START != null)
+          {
+              Console.Write("Entre com um numero : ");
+              n = int.Parse(Console.ReadLine());
+              resultado = START.Consulta(n);
+            if (resultado == 0)
+              Console.Write("Numero nao encontrado!");
+           else
+              Console.Write("Numero existe na posicao {0}", resultado);
+          }
+           Console.ReadKey();
+          break;
+      case 4: //IMPRIMIR
+           Console.Clear();
+          if (START == null)
+           Console.Write("Pilha Vazia");
+          else
+           START.Imprimir();
+           break;
+    case 6: //somatoria
         Console.Clear();
-if(START != null)
-{
-    Console.Write("Entre com um numero : ");
-    n = int.Parse(Console.ReadLine());
-    resultado = START.Consulta(n);
-  if (resultado == 0)
-    Console.Write("Numero nao encontrado!");
- else
-    Console.Write("Numero existe na posicao {0}", resultado);
-}
- Console.ReadKey();
-break;
- case 4: //IMPRIMIR
- Console.Clear();
-if (START == null)
- Console.Write("Pilha Vazia");
- else
- START.Imprimir();
- break;
- case 6: //somatoria
- Console.Clear();
-if (START != null)
- START.Somatoria();
- else
- Console.WriteLine("Pilha vazia");
-Console.ReadKey();
- break;
- }
- } while (escolha != 5);
- }
+   if (START != null)
+        START.Somatoria();
+    else
+        Console.WriteLine("Pilha vazia");
+        Console.ReadKey();
+        break;
+    }
+   } while (escolha != 5);
+   }
  }
 }
