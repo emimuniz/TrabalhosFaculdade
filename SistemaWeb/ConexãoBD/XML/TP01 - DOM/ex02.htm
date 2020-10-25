@@ -1,0 +1,28 @@
+<html>
+
+<body>
+  <h2>Voos - JavaScript</h2>
+
+  <script type="text/javascript">
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+
+    filhos = xmlDoc.documentElement.childNodes;
+    for (i = 0; i < filhos.length; i++) {
+      netos = filhos.item(i).childNodes;
+
+      document.write(filhos.item(i).nodeName + " " + i + " : ")
+      for (j = 0; j < netos.length; j++) {
+
+        document.write(" " + j + " - " + netos.item(j).nodeName + ": " + netos.item(j).text + ",");
+      }
+      document.write("<BR/>")
+    }
+
+  </script>
+
+</body>
+
+</html>

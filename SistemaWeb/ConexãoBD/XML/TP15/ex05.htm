@@ -1,0 +1,55 @@
+<html>
+
+<body>
+  <h2>Cole��o de Dvds - JavaScript</h2>
+
+  <script type="text/javascript">
+    var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+    xmlDoc.async = "false";
+    xmlDoc.load("voos2.xml")
+
+
+    document.write("<br><br>");
+    //Exemplo de Basename
+    document.write("Propriedade baseName: " + xmlDoc.documentElement.baseName);
+
+    document.write("<br><br>");
+    //Exemplo de docType - null por n�o existir DTD associada
+    document.write("Propriedade doctype: " + xmlDoc.doctype);
+
+    document.write("<br><br>");
+    //Exemplo de FirstChild 
+    document.write("1.o n� filho (texto): " + xmlDoc.documentElement.firstChild.text);
+
+    document.write("<br><br>");
+    //Exemplo de LastChild 
+    document.write("�ltimo n� filho (texto): " + xmlDoc.documentElement.lastChild.text);
+    document.write("<br><br>");
+    //Exemplo de NodeName
+    document.write("Nome do 1.o filho: " + xmlDoc.documentElement.firstChild.nodeName);
+
+    document.write("<br><br>");
+    //Exemplo de nextSibling
+    filho1 = xmlDoc.documentElement.firstChild;
+    filho2 = filho1.nextSibling;
+    document.write("texto do n� Seguinte ao atual: " + filho2.text);
+
+    document.write("<br><br>");
+    //Exemplo de NodeType
+    document.write("Tipo: " + filho2.nodeType);
+
+    document.write("<br><br>");
+    //Exemplo de previousSibling
+    filho3 = filho2.previousSibling;
+    document.write("Texto do anterior: " + filho3.text);
+
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>

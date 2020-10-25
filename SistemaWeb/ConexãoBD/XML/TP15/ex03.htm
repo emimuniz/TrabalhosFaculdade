@@ -1,0 +1,32 @@
+<html>
+
+<body>
+  <h2>Cole��o de Dvds - JavaScript</h2>
+
+  <script type="text/javascript">
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+
+    document.write("<br><br>Atributo 0 de filho 0: ");
+    document.write(xmlDoc.documentElement.childNodes[0].attributes[0].name);
+    document.write("<br>Seu valor: ");
+    document.write(xmlDoc.documentElement.childNodes[0].attributes[0].value)
+
+    document.write("<br>Atributo 1 de filho 0: ");
+    document.write(xmlDoc.documentElement.childNodes[0].attributes[1].name);
+    document.write("<br>Seu valor: ");
+    document.write(xmlDoc.documentElement.childNodes[0].attributes[1].value)
+
+    document.write("<br>Atributo 2 de filho 0: ");
+  // d� pau...
+  //document.write(xmlDoc.documentElement.childNodes[0].attributes[2].name);
+  </script>
+
+
+
+
+</body>
+
+</html>

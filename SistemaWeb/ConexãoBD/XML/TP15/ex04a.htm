@@ -1,0 +1,23 @@
+<html>
+
+<body>
+  <h2>Cole��o de Dvds - JavaScript</h2>
+
+  <script type="text/javascript">
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+
+    filho = xmlDoc.documentElement.childNodes;
+
+    attr = filho.item(0).attributes;
+    n_attr = attr.length;
+    for (i = 0; i < n_attr; i++)
+      document.write(attr.item(i).name + ": " + attr.item(i).text + "<br>")
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<html>
+
+<body>
+  <h2>Voos - JavaScript</h2>
+
+  <script type="text/javascript">
+    var xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+
+    objNovoNo = xmlDoc.createElement("voos")
+    objNovoNoFilho1 = xmlDoc.createElement("codigo")
+    objNovoTexto1 = xmlDoc.createTextNode("CWB")
+    objNovoNoFilho1.appendChild(objNovoTexto1)
+    objNovoNo.appendChild(objNovoNoFilho1)
+
+    objNovoNoFilho2 = xmlDoc.createElement("destino")
+    objNovoTexto2 = xmlDoc.createTextNode("GAL")
+    objNovoNoFilho2.appendChild(objNovoTexto2)
+    objNovoNo.appendChild(objNovoNoFilho2)
+
+    objNovoNoFilho3 = xmlDoc.createElement("horario")
+    objNovoTexto3 = xmlDoc.createTextNode("19:00")
+    objNovoNoFilho3.appendChild(objNovoTexto3)
+    objNovoNo.appendChild(objNovoNoFilho3)
+
+
+    objNovoNoFilho4 = xmlDoc.createElement("compania")
+    objNovoTexto4 = xmlDoc.createTextNode("Avianca")
+    objNovoNoFilho4.appendChild(objNovoTexto4)
+    objNovoNo.appendChild(objNovoNoFilho4)
+
+    objNovoNoFilho5 = xmlDoc.createElement("operando")
+    objNovoTexto5 = xmlDoc.createTextNode("T")
+    objNovoNoFilho5.appendChild(objNovoTexto5)
+    objNovoNo.appendChild(objNovoNoFilho5)
+
+
+    objNoCorrente = xmlDoc.documentElement
+    objNoCorrente.appendChild(objNovoNo)
+
+    filhos = xmlDoc.documentElement.childNodes;
+    for (i = 0; i < filhos.length; i++) {
+      netos = filhos.item(i).childNodes;
+
+      document.write(filhos.item(i).nodeName + " " + i + " : ")
+      for (j = 0; j < netos.length; j++) {
+
+        document.write(" " + j + " - " + netos.item(j).nodeName + ": " + netos.item(j).text + ",");
+      }
+      document.write("<BR/>")
+    }
+    
+    xmlDoc.save(Server.MapPath("voos3.xml"));
+
+
+  </script>
+
+</body>
+
+</html>

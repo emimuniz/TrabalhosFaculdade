@@ -1,0 +1,66 @@
+<html>
+
+<body>
+  <h2>Cole��o de Dvds - JavaScript - Objeto Document</h2>
+
+  <script type="text/javascript">
+
+    var xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+
+    //Cria um novo No Pai
+    objNovoNo = xmlDoc.createElement("dvd")
+
+    //Cria um novo no filho
+    objNovoNoFilho1 = xmlDoc.createElement("titulo")
+
+    //Cria o texto do filho
+    objNovoTexto1 = xmlDoc.createTextNode("Bar�o Vermelho ")
+
+    //Adiciona o texto ao filho1
+    objNovoNoFilho1.appendChild(objNovoTexto1)
+
+    //Adiciona o filho1 ao pai
+    objNovoNo.appendChild(objNovoNoFilho1)
+
+    //Cria o segundo no filho
+    objNovoNoFilho2 = xmlDoc.createElement("banda")
+    //Cria o texto do segundo filho
+    objNovoTexto2 = xmlDoc.createTextNode("Bar�o Vermelho vol. 1 ")
+    //Adiciona o texto ao filho2
+    objNovoNoFilho2.appendChild(objNovoTexto2)
+    //Adiciona o filho2 ao Pai
+    objNovoNo.appendChild(objNovoNoFilho2)
+
+    objNoCorrente = xmlDoc.documentElement
+    //Adiciona o Pai ao documento
+    objNoCorrente.appendChild(objNovoNo)
+
+    document.write("�ltimo n� filho (texto): " + xmlDoc.documentElement.lastChild.text);
+
+    //Exemplo de CreateAttribute
+    objAttr = xmlDoc.createAttribute("cod")
+    xmlDoc.documentElement.lastChild.setAttribute("cod", "4")
+
+    document.write("<br/> <br/>")
+    document.write("Atributo criado depois do append: " + xmlDoc.documentElement.lastChild.attributes[0].value)
+
+    //Exemplo de getElementByTagName
+
+    var objElem = xmlDoc.getElementsByTagName("titulo")
+    var count = objElem.length
+
+    document.write("<br/> <br/> Quantidade de N�s = " + count + "<br/> Listagem: <br/> ")
+
+    for (i = 0; i < count; i++)
+      document.write(objElem[i].firstChild.nodeValue + "<br>");
+
+    xmlDoc.save("novoxml000.xml");
+
+  </script>
+
+</body>
+
+</html>

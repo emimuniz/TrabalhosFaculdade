@@ -1,0 +1,26 @@
+<html>
+
+<body>
+  <h2>Voos - JavaScript</h2>
+
+  <script type="text/javascript">
+
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+    //retorna o nome do elemento raiz
+    document.write("No raiz: " + xmlDoc.documentElement.nodeName);
+    //todos os valores de nos textos
+    document.write("<br>Todos os valores de nos textos: " + xmlDoc.documentElement.xml);
+    //todos os valores de nos textos
+    document.write("<br>Idem: " + xmlDoc.documentElement.text);
+    //todos os valores de nos textos
+    document.write("<br>Tipo: " + xmlDoc.documentElement.nodeType);
+
+  </script>
+
+
+</body>
+
+</html>

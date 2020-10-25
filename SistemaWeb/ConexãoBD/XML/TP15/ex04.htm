@@ -1,0 +1,31 @@
+<html>
+
+<body>
+  <h2>Cole��o de Dvds - JavaScript</h2>
+
+  <script type="text/javascript">
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    xmlDoc.async = "false"
+    xmlDoc.load("voos2.xml")
+
+
+    filhos = xmlDoc.documentElement.childNodes;
+    document.write("<br>Total de elementos abaixo de colecao: " + filhos.length);
+    for (i = 0; i < filhos.length; i++)
+      document.write("<BR>" + i + " - " + filhos.item(i).nodeName);
+
+    netos = filhos.item(0).childNodes;
+    document.write("<br>Total de elementos abaixo de " + filhos.item(0).nodeName + " (0): " + netos.length);
+    for (i = 0; i < netos.length; i++) {
+      document.write("<BR>" + i + " - " + netos.item(i).nodeName);
+      document.write(", seu texto: " + netos.item(i).text);
+    } 
+  </script>
+
+
+
+
+
+</body>
+
+</html>
