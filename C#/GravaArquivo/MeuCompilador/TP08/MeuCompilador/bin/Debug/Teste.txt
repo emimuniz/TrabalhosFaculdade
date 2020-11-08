@@ -1,0 +1,9 @@
+# Este programa exibe na linha 1 coluna 1 do monitor o numero 11 #
+
+limpatela ();
+posicionacursor (1 , 1);
+escrevedigito (1);
+escrevedigito (1);
+fim ();
+
+# Fim de Programa #

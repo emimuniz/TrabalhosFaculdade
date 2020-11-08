@@ -1,0 +1,197 @@
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador II\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula09\MeuCompilador III\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPAula09\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula10\TPHoje\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TPAula10\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula11\TP de Hoje\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol I\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula12\TPAula11 Sol II\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol II\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\MauricioAsenjo\Documents\Computador - Casa\Apostilas\2016\Primeiro Semestre\Santa Compiladores\Aula13\TPAula12 Sol I\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula01\OndeParamos\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula02\NossoCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula03\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01aula04\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula06\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim01Aula07\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2017\Segundo Semestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojResolveAssemblyReference.cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.Cache
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\asenj\OneDrive\Documentos\Meus Documentos\Computador - Casa\Apostilas\2018\SegundoSemestre\Santa Compiladores\Bim02Aula02\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe.config
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.exe
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\bin\Debug\MeuCompilador.pdb
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csprojAssemblyReference.cache
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.MeuCompiladorIHM.resources
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.Properties.Resources.resources
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.GenerateResource.cache
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.exe
+C:\Users\Nicolas\Downloads\Bim02Aula08\MeuCompilador\MeuCompilador\obj\Debug\MeuCompilador.pdb
